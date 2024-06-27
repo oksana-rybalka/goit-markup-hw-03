@@ -70,6 +70,7 @@ color: #fff;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    cursor: pointer; 
 }
 
 .button:hover,
@@ -91,6 +92,31 @@ color: #2e2f42;
 .text-punctuality,
 .text-diligence,
 .text-tehnologies {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.section-team{
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    background: #f4f4fd;
+}
+.title-team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11
+
+
+}
+.title-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.about-profesion {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
