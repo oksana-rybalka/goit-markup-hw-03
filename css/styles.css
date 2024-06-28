@@ -1,4 +1,4 @@
- body{
+body {
         font-family: "Roboto", sans-serif;  
         color: #434455; 
         background-color: #fff; 
@@ -44,15 +44,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.page-footer {
-    background-color:  #2e2f42;
-}
-.footer-logo .logo-part {
-    color: #f4f4fd;
-}
+
 .main-section-button {
-    width: 1440px;
-height: 600px;
 background: #2e2f42;
 }
 .main-page-header {
@@ -103,13 +96,13 @@ color: #434455;
     letter-spacing: 0.02em;
     background: #f4f4fd;
 }
+
 .title-team {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11
-
-
 }
+
 .title-name {
     font-weight: 500;
     font-size: 20px;
@@ -122,4 +115,15 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+
+.page-footer {
+background-color:  #2e2f42;
+}
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+.footer-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
