@@ -100,7 +100,10 @@ color: #434455;
 .title-team {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 }
 
 .title-name
@@ -124,24 +127,14 @@ color: #434455;}
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.title-banking,
-.title-cashless,
-.title-meditation,
-.title-taxi,
-.title-illustration,
-.title-courses {
+.title-image {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.text-banking,
-.text-cashless,
-.text-meditation,
-.text-taxi,
-.text-ilulustration,
-.text-courses {
+.text-image {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
