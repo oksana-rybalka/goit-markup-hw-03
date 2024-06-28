@@ -1,6 +1,6 @@
 body {
-        font-family: "Roboto", sans-serif;  
-        color: #434455; 
+    font-family: "Roboto", sans-serif;  
+    color: #434455; 
         background-color: #fff; 
 }
 
@@ -48,7 +48,7 @@ color: #434455;
 .main-section-button {
 background: #2e2f42;
 }
-.main-page-header {
+.main-page-title {
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -103,15 +103,12 @@ font-size: 36px;
 line-height: 1.11
 }
 
-.title-mark,
-.title-tom,
-.title-camila,
-.title-daniel
+.title-name
  {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 .about-profesion {
 font-weight: 400;
@@ -120,6 +117,37 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
 
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.title-banking,
+.title-cashless,
+.title-meditation,
+.title-taxi,
+.title-illustration,
+.title-courses {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.text-banking,
+.text-cashless,
+.text-meditation,
+.text-taxi,
+.text-ilulustration,
+.text-courses {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 .page-footer {
 background-color:  #2e2f42;
 }
