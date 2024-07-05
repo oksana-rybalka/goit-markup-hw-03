@@ -12,8 +12,9 @@ ul,ol {
 a {
     text-decoration: none;
 }
+/*common*/
 .container {
-    max-width: 1156px;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -33,6 +34,7 @@ border-bottom: 1px solid #e7e9fc;
 .header-nav {
     display: flex;
     align-items: center;
+
 }
 .nav-list {
     display: flex;
@@ -48,6 +50,7 @@ border-bottom: 1px solid #e7e9fc;
 .heder-logo {
     padding: 24px 0;
     margin-right: 76px;
+    display: block;
 }
 
 .logo {
@@ -71,6 +74,7 @@ color: #2e2f42;
 padding: 24px o;
 display: block;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
@@ -90,7 +94,9 @@ display: block;
 padding: 24px o;
 
 }
-
+img {
+    display: block;
+}
 .main-section-button {
 background: #2e2f42;
 }
