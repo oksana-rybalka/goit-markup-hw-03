@@ -71,7 +71,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
-padding: 24px o;
+padding: 24px 0;
 display: block;
 }
 
@@ -94,11 +94,20 @@ display: block;
 padding: 24px o;
 
 }
-img {
-    display: block;
+
+
+.img {
+ display: block;   ;
 }
+
+.container-section-button {
+
+}
+
 .main-section-button {
 background: #2e2f42;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 .main-page-title {
 font-weight: 700;
@@ -106,7 +115,11 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #fff;
+color: #fff; 
+margin: auto;
+max-width: 496px;
+padding-bottom: 48px;
+
 }
 .button {
     font-weight: 500;
@@ -116,6 +129,12 @@ color: #fff;
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer; 
+    display: block;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin: auto;
 }
 
 .button:hover,
