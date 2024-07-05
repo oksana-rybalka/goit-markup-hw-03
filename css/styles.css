@@ -97,11 +97,7 @@ padding: 24px o;
 
 
 .img {
- display: block;   ;
-}
-
-.container-section-button {
-
+ display: block;
 }
 
 .main-section-button {
@@ -119,7 +115,6 @@ color: #fff;
 margin: auto;
 max-width: 496px;
 padding-bottom: 48px;
-
 }
 .button {
     font-weight: 500;
