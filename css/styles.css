@@ -213,9 +213,10 @@ margin-bottom: 72px;
 }
 
 .profile-container {
-    padding-top: 32px;
+    padding-top: 32px; 
     padding-bottom: 32px;
 }
+
 .title-name
  {
 font-weight: 500;
