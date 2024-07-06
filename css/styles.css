@@ -159,8 +159,7 @@ padding-bottom: 48px;
     gap: 24px;
     align-items: center;
 }
-/*.solution-strategy-item, .solution-punctuality-item, 
-.solution-diligence-item, .solution-tehnologies-item*/.solution-item {
+.solution-item {
    display: block;
    width: calc((100% - 3*24px)/4); 
 
@@ -185,7 +184,9 @@ letter-spacing: 0.02em;
     color: #2e2f42;
     letter-spacing: 0.02em;
     background-color: #f4f4fd;
+    padding-bottom: 120px;
 }
+/* section team */
 
 .title-team {
 font-weight: 700;
@@ -198,8 +199,13 @@ text-transform: capitalize;
 
 .list-team .team-item {
  background-color: #FFFFFF;
+ 
 }
-
+.list-team {
+    display: flex;
+    padding-bottom: 120px;
+    padding-top: 72px;
+}
 .title-name
  {
 font-weight: 500;
@@ -216,6 +222,9 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+
+/* section portfolio */
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -224,6 +233,13 @@ color: #434455;
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .title-image {
 font-weight: 500;
@@ -231,6 +247,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+
 }
 .text-image {
 font-weight: 400;
