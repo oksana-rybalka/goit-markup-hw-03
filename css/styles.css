@@ -136,11 +136,12 @@ padding-bottom: 48px;
     background-color: #404bbf;
 }
 /*.main-section-solution*/
-.solution-container {
-    max-width: 1128px;
+
+.main-section-solution {
+    padding: 120px 0;
 }
 .title-list-solutions {
-    visibility: hidden;
+    display: none;
 }
 .list-solutions {
     padding-bottom: 120px ;
@@ -150,11 +151,12 @@ padding-bottom: 48px;
     align-items: center;
 }
 .solution-strategy-item, .solution-punctuality-item, 
-.solution-diligence-item {
+.solution-diligence-item, .solution-tehnologies-item {
    display: block;
-   width: calc(100% - 3*24px)/4;
-   
+   width: calc((100% - 3*24px)/4); 
+
 }
+
 .title-solution {
 font-weight: 500;
 font-size: 20px;
