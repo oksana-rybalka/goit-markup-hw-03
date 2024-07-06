@@ -197,7 +197,10 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 margin-bottom: 72px;
-border-radius: 0 0 4px 4px;
+
+}
+.team-item {
+    border-radius: 0 0 4px 4px;
 }
 
 .list-team .team-item {
@@ -209,7 +212,7 @@ border-radius: 0 0 4px 4px;
     gap: 24px;
     
 }
-.profil-container {
+.profile-container {
     padding-top: 32px;
     padding-bottom: 32px;
 }
