@@ -140,8 +140,17 @@ padding-bottom: 48px;
 .main-section-solution {
     padding: 120px 0;
 }
-.title-list-solutions {
-    display: none;
+ .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 .list-solutions {
     padding-bottom: 120px ;
@@ -150,8 +159,8 @@ padding-bottom: 48px;
     gap: 24px;
     align-items: center;
 }
-.solution-strategy-item, .solution-punctuality-item, 
-.solution-diligence-item, .solution-tehnologies-item {
+/*.solution-strategy-item, .solution-punctuality-item, 
+.solution-diligence-item, .solution-tehnologies-item*/.solution-item {
    display: block;
    width: calc((100% - 3*24px)/4); 
 
